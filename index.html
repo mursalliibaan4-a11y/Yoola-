@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Website Layout</title>
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+#wrapper{
+    width:1200px;
+    margin:auto;
+    border:8px solid green;
+    padding:10px;
+}
+
+#header{
+    height:150px;
+    background:#c0d9ef;
+    border:5px solid yellow;
+    text-align:center;
+    line-height:150px;
+    font-size:60px;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+#left{
+    width:160px;
+    height:400px;
+    border:2px solid black;
+    float:left;
+    padding:10px;
+}
+
+#left a{
+    display:block;
+    text-decoration:none;
+    margin-bottom:15px;
+    font-size:20px;
+}
+
+#center{
+    width:570px;
+    height:400px;
+    border:2px solid blue;
+    float:left;
+    margin-left:10px;
+}
+
+#img{
+    width:280px;
+    height:150px;
+    background:#c0d9ef;
+    float:left;
+    text-align:center;
+    line-height:150px;
+    font-size:90px;
+    color:white;
+}
+
+#text{
+    width:280px;
+    height:150px;
+    float:left;
+    padding:10px;
+    font-size:22px;
+}
+
+#para{
+    clear:both;
+    padding:10px;
+    font-size:20px;
+}
+
+#right{
+    width:390px;
+    height:400px;
+    border:2px solid brown;
+    float:right;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th,td{
+    border:1px solid gray;
+    padding:8px;
+    font-size:20px;
+    text-align:center;
+}
+
+#footer{
+    clear:both;
+    height:100px;
+    border:4px solid orange;
+    text-align:center;
+    line-height:100px;
+    font-size:30px;
+    margin-top:10px;
+}
+</style>
+</head>
+
+<body>
+
+<div id="wrapper">
+
+    <div id="header">
+        My Website Layout
+    </div>
+
+    <div id="left">
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Gallery</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div id="center">
+
+        <div id="img">
+            🖼
+        </div>
+
+        <div id="text">
+            Welcome to our website. We provide useful information
+            and quality services for our visitors.
+        </div>
+
+        <div id="para">
+            Our goal is to help people learn web design,
+            programming, and modern technology in a simple
+            and easy way.
+        </div>
+
+    </div>
+
+    <div id="right">
+
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Phone</th>
+                <th>Name</th>
+            </tr>
+
+            <tr>
+                <td>101</td>
+                <td>615123456</td>
+                <td>Mohamed Ali</td>
+            </tr>
+
+            <tr>
+                <td>102</td>
+                <td>616234567</td>
+                <td>Amina Hassan</td>
+            </tr>
+
+            <tr>
+                <td>103</td>
+                <td>617345678</td>
+                <td>Abdi Nur</td>
+            </tr>
+
+            <tr>
+                <td>104</td>
+                <td>618456789</td>
+                <td>Hodan Yusuf</td>
+            </tr>
+        </table>
+
+    </div>
+
+    <div id="footer">
+        © 2026 My Website
+    </div>
+
+</div>
+
+</body>
+</html>
